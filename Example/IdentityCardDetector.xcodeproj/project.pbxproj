@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* IdentityCardDetector_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdentityCardDetector_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64CDC2D88AB7B9AB5ABA656E /* IdentityCardDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IdentityCardDetector.podspec; path = ../IdentityCardDetector.podspec; sourceTree = "<group>"; };
+		64CDC2D88AB7B9AB5ABA656E /* IdentityCardDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IdentityCardDetector.podspec; path = ../IdentityCardDetector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85770F4DA1113D3442A49EB3 /* Pods-IdentityCardDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdentityCardDetector_Example.debug.xcconfig"; path = "Target Support Files/Pods-IdentityCardDetector_Example/Pods-IdentityCardDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8935828820182618F52898F5 /* Pods-IdentityCardDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdentityCardDetector_Tests.release.xcconfig"; path = "Target Support Files/Pods-IdentityCardDetector_Tests/Pods-IdentityCardDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		910673BAD6F5F5BC5F3708E5 /* Pods_IdentityCardDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdentityCardDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEB2523BBEC4F25AD19B3A1 /* Pods-IdentityCardDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdentityCardDetector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IdentityCardDetector_Tests/Pods-IdentityCardDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C31DC3D7C2B5522D8EFE7FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CDB07A7E68DF1AA8C7EBCC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C31DC3D7C2B5522D8EFE7FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDB07A7E68DF1AA8C7EBCC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F775D39820AF520C4D85DC95 /* Pods-IdentityCardDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdentityCardDetector_Example.release.xcconfig"; path = "Target Support Files/Pods-IdentityCardDetector_Example/Pods-IdentityCardDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				ABEB2523BBEC4F25AD19B3A1 /* Pods-IdentityCardDetector_Tests.debug.xcconfig */,
 				8935828820182618F52898F5 /* Pods-IdentityCardDetector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IdentityCardDetector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IdentityCardDetector.'
+  s.summary          = 'IdCardDetector contains a sample ML model with detects the ID type of image choosen.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  IdCardDetector contains a sample ML model with detects the ID type of image choosen.
                        DESC
 
-  s.homepage         = 'https://github.com/virtplay/IdentityCardDetector'
+  s.homepage         = 'https://github.com/Karthikmoback/IdentityCardDetector'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'virtplay' => 'karthikb@moback.com' }
-  s.source           = { :git => 'https://github.com/virtplay/IdentityCardDetector.git', :tag => s.version.to_s }
+  s.author           = { 'Karthik' => 'karthikb@moback.com' }
+  s.source           = { :git => 'https://github.com/Karthikmoback/IdentityCardDetector.git', :tag => s.version.to_s }
+  s.swift_version = "5.0"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'IdentityCardDetector/Classes/**/*'
+  s.source_files = 'IdentityCardDetector/Classes/**/*.{swift,mlmodel,mlmodelc}'
   
   # s.resource_bundles = {
   #   'IdentityCardDetector' => ['IdentityCardDetector/Assets/*.png']

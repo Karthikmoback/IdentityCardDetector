@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityCardDetector'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'IdCardDetector contains a sample ML model with detects the ID type of image choosen.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'IdentityCardDetector/Classes/**/*.{swift,mlmodel,mlmodelc}'
+  s.source_files = 'IdentityCardDetector/Classes/**/*.{swift,mlmodel,mlmodelc}','*.{mlmodel,mlmodelc}'
   
   # s.resource_bundles = {
   #   'IdentityCardDetector' => ['IdentityCardDetector/Assets/*.png']
